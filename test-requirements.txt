@@ -16,3 +16,5 @@ netaddr
 awscli
 # Used for comparing SSH Public keys to the Amazon fingerprints
 cryptography
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
